@@ -1,5 +1,5 @@
 {
-  "title": "Roadmap of Web Applications on Mobile",
+  "title": "移动Web应用程序路线图",
   "discourse": {
     "category": "W3C’s discourse forum",
     "url": "https://discourse.wicg.io/"
@@ -7,75 +7,75 @@
   "pages": [
     {
       "url": "graphics.html",
-      "title": "Graphics and Layout",
+      "title": "图形和布局",
       "icon": "../assets/img/mobile-graphics.svg",
-      "description": "Features needed to design compelling and smooth user interfaces."
+      "description": "设计引人入胜的用户界面所需的功能。"
     },
     {
       "url": "adaptation.html",
-      "title": "Device Adaptation",
+      "title": "设备适配",
       "icon": "../assets/img/mobile-adaptation.svg",
-      "description": "Features needed to create responsive layouts, where content automatically adjusts itself to heterogeneous screens, input mechanisms and other device capabilities."
+      "description": "创建响应式布局所需的功能，其中内容可自动将其自身调整为适应多种屏幕、输入机制和其他设备功能。"
     },
     {
       "url": "forms.html",
-      "title": "Forms",
+      "title": "表单",
       "icon": "../assets/img/mobile-forms.svg",
-      "description": "Features needed to build rich forms and optimize user input on devices where text input remains a challenge."
+      "description": "在文本输入仍然不方便的设备上构建复杂的表单并优化用户输入所需的功能。"
     },
     {
       "url": "storage.html",
-      "title": "Data Storage",
+      "title": "数据存储",
       "icon": "../assets/img/mobile-storage.svg",
-      "description": "Technologies available to save state, export content, and integrate data from files and services on the system."
+      "description": "可用于保存状态、导出内容以及从系统上的文件和服务集成数据的技术。"
     },
     {
       "url": "media.html",
-      "title": "Media",
+      "title": "媒体",
       "icon": "../assets/img/mobile-media.svg",
-      "description": "Features needed to create immersive audio/video experiences on mobile devices."
+      "description": "在移动设备上创建沉浸式音频/视频体验所需的功能。"
     },
     {
       "url": "userinput.html",
-      "title": "User Input",
+      "title": "用户输入",
       "icon": "../assets/img/mobile-userinput.svg",
-      "description": "Features needed to engage the user through device-specific interaction mechanisms, such as touch-based interactions, vibration, notifications."
+      "description": "通过特定于设备的交互机制（例如基于触摸的交互、振动、通知提醒等）来吸引用户所需的功能。"
     },
     {
       "url": "sensors.html",
-      "title": "Sensors and Local Interactions",
+      "title": "传感器和交互",
       "icon": "../assets/img/mobile-sensors.svg",
-      "description": "Hooks to interact with sensors that compose mobile devices, from accelerometers and geolocation sensors to proximity-based communication mechanisms."
+      "description": "与移动设备的传感器交互的API，从加速度计、地理位置传感器到基于接近度传感器的通信机制。"
     },
     {
       "url": "network.html",
-      "title": "Network and Communications",
+      "title": "网络和通信",
       "icon": "../assets/img/mobile-network.svg",
-      "description": "Interactions with the network to bring the power and immense storage capabilities of the Web to otherwise limited mobile devices."
+      "description": "与网络的互动功能，使硬件受限的移动设备利用网络的功能和巨大的存储能力。"
     },
     {
       "url": "lifecycle.html",
-      "title": "Application Lifecycle",
+      "title": "应用程序生命周期",
       "icon": "../assets/img/mobile-lifecycle.svg",
-      "description": "Mechanisms to integrate the application with the rest of the system and provide a native-like experience."
+      "description": "将应用程序与系统的其余部分集成的机制，并提供类似本机应用的体验。"
     },
     {
       "url": "payment.html",
-      "title": "Payment and Services",
+      "title": "支付和服务",
       "icon": "../assets/img/mobile-payment.svg",
-      "description": "Features needed to monetize an application, e.g. by integrating easy-to-use in-app purchases."
+      "description": "应用程序盈利需要的功能，例如集成易于使用的应用程序内购API。"
     },
     {
       "url": "performance.html",
-      "title": "Performance and Tuning",
+      "title": "性能和调优",
       "icon": "../assets/img/mobile-performance.svg",
-      "description": "Mechanisms to monitor and improve the performances of an application on highly-constrained mobile devices."
+      "description": "监测和改进受限的移动设备应用程序性能的机制。"
     },
     {
       "url": "security.html",
-      "title": "Security and Privacy",
+      "title": "安全和隐私",
       "icon": "../assets/img/mobile-security.svg",
-      "description": "Technologies and considerations to guarantee privacy and security on mobile devices that hold some of the user’s most private and confidential data."
+      "description": "确保移动设备上用户的隐私和安全性的技术。"
     }
   ]
 }
