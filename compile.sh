@@ -10,6 +10,7 @@ python tools/extract-impl-data.py data/*.json > specs/impl.json
 
 if [ -d out ]; then
   cp -R assets out/assets/
+  cp -R data out/data/
   cp -R js out/js/
   cp -R mobile out/mobile/
   cp specs/tr.json out/specs/tr.json
