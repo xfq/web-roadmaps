@@ -1,0 +1,12 @@
+sudo: false
+language: python
+python:
+- '2.7'
+install:
+- pip install lxml setuptools --upgrade
+script:
+- bash "./deploy.sh"
+env:
+  global:
+  - ENCRYPTION_LABEL: "c56bb9479bf5"
+  - COMMIT_AUTHOR_EMAIL: "plh+deploy@w3.org"
