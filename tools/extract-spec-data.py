@@ -63,9 +63,9 @@ for filename in sys.argv[1:]:
             if len(labels) > 0:
                 wg["label"] = labels[0]
             else:
-                err = "No group with home page %s found in public-groups.rdf nor closed-groups.rdf\n" % (url)
-                sys.stderr.write(err)
-                errors.append(err)
+                # err = "No group with home page %s found in public-groups.rdf nor closed-groups.rdf\n" % (url)
+                # sys.stderr.write(err)
+                # errors.append(err)
         data[id]["wgs"].append(wg)
 
 print json.dumps(data, sort_keys=True, indent=2)
