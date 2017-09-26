@@ -62,7 +62,7 @@ for filename in sys.argv[1:]:
             labels = closed_wgs.xpath("/rdf:RDF/*[c:homePage/@rdf:resource='%s']/o:name/text()" % url, namespaces=ns)
             if len(labels) > 0:
                 wg["label"] = labels[0]
-            else:
+            # else:
                 # err = "No group with home page %s found in public-groups.rdf nor closed-groups.rdf\n" % (url)
                 # sys.stderr.write(err)
                 # errors.append(err)
